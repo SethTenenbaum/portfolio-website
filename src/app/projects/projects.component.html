@@ -1,2 +1,24 @@
-<h1>My Projects</h1>
-<p>This is the projects page.</p>
+<div class="container mx-auto p-4">
+    <h1 class="text-4xl font-bold text-center mb-8">My Projects</h1>
+  
+    <!-- Drummy Project -->
+    <section class="mb-8">
+      <h2 class="text-3xl font-bold mb-4">Drummy</h2>
+      <p class="text-lg text-gray-700 mb-4">
+        Drummy is a research project that uses TensorFlow to generate new drum sounds from existing samples based on user-defined parameters. For example, you can create a new drum hit by combining 80% snare samples with 20% high hat samples. Another example is blending 808 bass drums with boom bap samples to produce a unique 808 boom bap sound. The project consists of three main components: feature extraction, neural network training, and sound synthesis.
+      </p>
+      <p class="text-lg text-gray-700 mb-4">
+        <strong>Note:</strong> This project is a work in progress and continuously improving the quality of the generated drum sounds is the focus. The next step is to enhance the current model by integrating WaveNet, which is expected to significantly improve sound quality. While the Variational Autoencoder (VAE) has produced some interesting signals, applying wave shaping filters could make the sounds even more drum-like. Additionally, there is the potential of filtering the VAE-generated signals to achieve a more refined output.
+      </p>
+      <a href="https://github.com/SethTenenbaum/drummy" class="text-blue-500 hover:underline">GitHub Repository</a>
+    </section>
+  
+    <!-- Historical Data Strategy Tester Project -->
+    <section class="mb-8">
+      <h2 class="text-3xl font-bold mb-4">Historical Data Strategy Tester</h2>
+      <p class="text-lg text-gray-700 mb-4">
+        This project is designed to test trading strategies using historical data using the Coinbase Advance Trade API. It allows users to define and implement various trading strategies, backtest them against historical data, and analyze the results. The project uses a Python backend with Flask and a React frontend with Redux and Parcel. The database is powered by TimescaleDB running in a Docker container.
+      </p>
+      <a href="https://github.com/SethTenenbaum/coin" class="text-blue-500 hover:underline">GitHub Repository</a>
+    </section>
+  </div>
