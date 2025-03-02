@@ -11,6 +11,8 @@ import { filter } from 'rxjs/operators';
   imports: [RouterModule]
 })
 export class AppComponent {
+  title = 'My Portfolio';
+
   constructor(private router: Router) {
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
