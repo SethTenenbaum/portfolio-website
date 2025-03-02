@@ -33,7 +33,7 @@ This portfolio website is a comprehensive showcase of my professional work, skil
 
 - **Angular**: A powerful framework for building web applications.
 - **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
-- **HTML5 & CSS3**: Markup and styling for the website.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **GitHub Pages**: Hosting the website.
 
 ## Development Setup
