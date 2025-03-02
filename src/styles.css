@@ -1,20 +1,36 @@
 @import "tailwindcss";
-.glowing-line {
-    width: 100%;
-    height: 1px;
-    background: black;
 
-    margin-top: 16px;
+.custom-shadow {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  transition: height 0.3s ease, padding 0.3s ease, font-size 0.3s ease;
+  height: 50px; /* Default height */
+  padding: .75rem 1rem; /* Default padding */
+  font-size: 1rem; /* Default font size */
+}
+.navbar .text-lg {
+    transition: font-size 0.3s ease;
+    font-size: 1rem; /* Default font size */
+  }
+.navbar.shrink {
+  height: 30px; /* Adjust this value as needed */
+  padding: 0.25rem 1rem; /* Adjust padding as needed */
+  font-size: 0.875rem; /* Adjust font size as needed */
+}
+.navbar.shrink .text-lg {
+    font-size: 0.875rem; /* Adjust font size as needed */
   }
   
-  @keyframes glowing {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+.navbar .container {
+  transition: padding 0.3s ease;
+}
+.navbar.shrink .text-lg {
+  font-size: 0.875rem; /* Adjust font size as needed */
+}
+
+.navbar.shrink .container {
+  padding-top: 0; /* Adjust padding as needed */
+  padding-bottom: 0; /* Adjust padding as needed */
+}

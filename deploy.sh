@@ -13,4 +13,4 @@ rm -r docs/browser
 cp docs/index.html docs/404.html
 
 # Deploy to GitHub Pages
-npx angular-cli-ghpages --dir=docs
+npx gh-pages -d docs
