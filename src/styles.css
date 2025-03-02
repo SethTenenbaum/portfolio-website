@@ -6,28 +6,28 @@
 
 .navbar {
   transition: height 0.3s ease, padding 0.3s ease, font-size 0.3s ease;
-  height: 50px; /* Default height */
-  padding: .75rem 1rem; /* Default padding */
+  height: 3.125rem; /* Default height (50px) */
+  padding: 0.75rem 1rem; /* Default padding */
   font-size: 1rem; /* Default font size */
 }
+
 .navbar .text-lg {
-    transition: font-size 0.3s ease;
-    font-size: 1rem; /* Default font size */
-  }
+  transition: font-size 0.3s ease;
+  font-size: 1rem; /* Default font size */
+}
+
 .navbar.shrink {
-  height: 30px; /* Adjust this value as needed */
+  height: 2rem; /* Adjust this value as needed (40px) */
   padding: 0.25rem 1rem; /* Adjust padding as needed */
   font-size: 0.875rem; /* Adjust font size as needed */
 }
-.navbar.shrink .text-lg {
-    font-size: 0.875rem; /* Adjust font size as needed */
-  }
-  
-.navbar .container {
-  transition: padding 0.3s ease;
-}
+
 .navbar.shrink .text-lg {
   font-size: 0.875rem; /* Adjust font size as needed */
+}
+
+.navbar .container {
+  transition: padding 0.3s ease;
 }
 
 .navbar.shrink .container {
