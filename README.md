@@ -67,24 +67,24 @@ ng build
 
 This will compile your project and store the build artifacts in the dist/ directory. By default, the production build optimizes your application for performance and speed.
 
-Running Tests
+## Running Tests
 Unit Tests
 To execute unit tests, use the following command:
 ```
 npm test
 ```
 
-End-to-End Tests
+## End-to-End Tests
 For end-to-end (e2e) testing, run:
 ```
 npm run e2e
 ```
 
-Deployment
+## Deployment
 To deploy your project to GitHub Pages, follow these steps:
 ```
 npm run deploy
 ```
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
