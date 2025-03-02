@@ -1,59 +1,66 @@
-# PortfolioWebsite
+# Seth Tenenbaum's Portfolio Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
+Welcome to my personal portfolio website! You can visit it at [https://sethtenenbaum.github.io/portfolio-website/](https://sethtenenbaum.github.io/portfolio-website/). This project showcases my work, skills, and projects. It was built using Angular and is hosted on GitHub Pages.
 
-## Development server
+## Table of Contents
 
-To start a local development server, run:
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Development Setup](#development-setup)
+- [Building the Project](#building-the-project)
+- [Running Tests](#running-tests)
+- [Deployment](#deployment)
+- [Contact](#contact)
 
-```bash
-ng serve
-```
+## About
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+This portfolio website is a comprehensive showcase of my professional work, skills, and projects. It includes sections such as:
 
-## Code scaffolding
+- **Home**: An introduction to who I am and what I do.
+- **Projects**: A detailed list of my projects with descriptions and links.
+- **Skills**: A summary of my technical skills and proficiencies.
+- **Contact**: Information on how to get in touch with me.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Features
 
-```bash
-ng generate component component-name
-```
+- Responsive design for optimal viewing on all devices.
+- Interactive project showcase with detailed descriptions.
+- Easy navigation and user-friendly interface.
+- Hosted on GitHub Pages for easy access and sharing.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Technologies Used
 
-```bash
-ng generate --help
-```
+- **Angular**: A powerful framework for building web applications.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **HTML5 & CSS3**: Markup and styling for the website.
+- **GitHub Pages**: Hosting the website.
 
-## Building
+## Development Setup
 
-To build the project run:
+To set up a local development environment, follow these steps:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/sethtenenbaum/portfolio-website.git
+    cd portfolio-website
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server**:
+    ```bash
+    ng serve
+    ```
+
+4. Open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Building the Project
+
+To build the project, run:
 
 ```bash
 ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
