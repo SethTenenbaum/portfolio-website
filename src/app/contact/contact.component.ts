@@ -27,7 +27,7 @@ export class ContactComponent {
       const email = this.contactForm.get('email')?.value;
       const message = this.contactForm.get('message')?.value;
 
-      const mailtoLink = `mailto:sethtenenbaum@eprotonmail.com?subject=Contact%20Form%20Submission&body=Name:%20${encodeURIComponent(name)}%0AEmail:%20${encodeURIComponent(email)}%0AMessage:%20${encodeURIComponent(message)}`;
+      const mailtoLink = `mailto:sethtenenbaum@protonmail.com?subject=Contact%20Form%20Submission&body=Name:%20${encodeURIComponent(name)}%0AEmail:%20${encodeURIComponent(email)}%0AMessage:%20${encodeURIComponent(message)}`;
 
       window.location.href = mailtoLink;
     }
